@@ -1,0 +1,39 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","Hey"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","Dont come back...","Thank God....I mean Thank you","Hasta Luego"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is bot", "what is your age", "how old are you", "age?"],
+         "responses": ["I am as old as time!", "I'm older than you","You shouldn't ask a lady that", "Mind your business", "However old you want  me to be"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you"],
+         "responses": ["You can call me Melanie. What's your name?", "I'm Melanie! What's your name?", "I'm Melanie the Movie Bot, what is your name?"],
+         "context_set": ""
+        },
+        
+        {"tag": "self",
+         "patterns": ["what do you know about me","give me an intro about me","tell me about myself","do you know me", "what do i like","what do i dislike"],
+         "responses": ["Here's what I know....", "Ok so far this is what I know about you...."],
+         "context_set": ""
+        },
+        {"tag": "serviceinfo",
+         "patterns": ["what can you do", "what are your services?","what do you do","what can you provide"],
+         "responses": ["I can give you an overview of the movie based on movie title!", "I can give you a summary of a movie!"],
+         "context_set": ""
+        },
+        {"tag": "search",
+         "patterns": ["can you look up movies?", "I wanna know about a movie", "Can you tell me about a movie", "tell me about a movie","what do you know about the movie"],
+         "responses": ["Sure! Give me an title of a movie!","What's the title of the movie?","can you tell me the movie's title"],
+         "context_set": ""
+        }
+   ]
+}
